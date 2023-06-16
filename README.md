@@ -20,4 +20,17 @@
 18. we use the csv-parser library for parsing the csv file(this library provide us to conviniant to read and extract the data from csv file).
 19. we also install multer for uploading the file (it give us to convinient to upload a file in express)
 20. create a file uploads, where the uploaded file are stored
-21. 
+21.In controller create model upload in this 1. check the file present 2. file is csv? 3. now create a file with the help of schema, and redirect back
+22. In controller another model view in this 1. find csv file with param id , 2. create 2 array header, results 3. headers array we map the head of the file 4 . file data push into results array 5. render the fileView.ejs
+23. In Controller create model delete in this 1. find the csv file 2. check the file and delete 
+24.  
+
+
+
+
+
+
+
+
+
+
