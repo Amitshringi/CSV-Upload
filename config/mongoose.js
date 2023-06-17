@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/csvUpload');
+mongoose.connect('mongodb+srv://amitshringi0786:h7FPQeS7HZO1D5wQ@amit-shringi.kijdxfg.mongodb.net/?retryWrites=true&w=majority');
 
 const db=mongoose.connection;
 
